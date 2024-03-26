@@ -20,7 +20,7 @@ MonoBehaviour:
     x: 591
     y: -190
     width: 776
-    height: 2066
+    height: 2179
 --- !u!114 &114350483966674976
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -1057,6 +1057,7 @@ MonoBehaviour:
   m_Parent: {fileID: 114350483966674976}
   m_Children:
   - {fileID: 8926484042661614589}
+  - {fileID: 8926484042661614669}
   - {fileID: 8926484042661614591}
   - {fileID: 8926484042661614593}
   m_UIPosition: {x: 941, y: 1288}
@@ -1128,7 +1129,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Texture2D, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"de0fae515169ff246a20d58a8a440ed0","type":3}}'
+      m_SerializableObject: '{"obj":{"fileID":2800000,"guid":"133301947bd9d1e489d8052f53bf6dc8","type":3}}'
     m_Space: 2147483647
   m_Property:
     name: mainTexture
@@ -1292,7 +1293,7 @@ MonoBehaviour:
       m_Type:
         m_SerializableType: UnityEngine.Gradient, UnityEngine.CoreModule, Version=0.0.0.0,
           Culture=neutral, PublicKeyToken=null
-      m_SerializableObject: '{"colorKeys":[{"color":{"r":5.34031343460083,"g":4.742619514465332,"b":0.9572253823280335,"a":1.0},"time":0.05687037482857704},{"color":{"r":98.84886169433594,"g":43.18720245361328,"b":0.0,"a":1.0},"time":0.21176470816135407},{"color":{"r":63.55511474609375,"g":7.194965839385986,"b":0.6654998660087586,"a":1.0},"time":0.496086061000824},{"color":{"r":1.692974328994751,"g":0.665693461894989,"b":0.14374284446239472,"a":1.0},"time":0.652948796749115},{"color":{"r":0.014150947332382203,"g":0.00673616211861372,"b":0.005473478231579065,"a":1.0},"time":0.7313801646232605},{"color":{"r":1.0,"g":1.0,"b":1.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.16078431904315949,"time":0.0},{"alpha":1.0,"time":0.10785076767206192},{"alpha":1.0,"time":0.5274586081504822},{"alpha":0.5882353186607361,"time":0.8901960849761963}],"gradientMode":0}'
+      m_SerializableObject: '{"colorKeys":[{"color":{"r":5.34031343460083,"g":4.742619514465332,"b":0.9572253823280335,"a":1.0},"time":0.05687037482857704},{"color":{"r":98.84886169433594,"g":43.18720245361328,"b":0.0,"a":1.0},"time":0.21176470816135407},{"color":{"r":63.55511474609375,"g":7.194965839385986,"b":0.6654998660087586,"a":1.0},"time":0.496086061000824},{"color":{"r":1.692974328994751,"g":0.665693461894989,"b":0.14374284446239472,"a":1.0},"time":0.652948796749115},{"color":{"r":0.10062885284423828,"g":0.033542949706315997,"b":0.0,"a":1.0},"time":0.7313801646232605},{"color":{"r":0.0,"g":0.0,"b":0.0,"a":1.0},"time":1.0}],"alphaKeys":[{"alpha":0.16078431904315949,"time":0.0},{"alpha":1.0,"time":0.10785076767206192},{"alpha":1.0,"time":0.5274586081504822},{"alpha":0.5882353186607361,"time":0.8901960849761963}],"gradientMode":0}'
     m_Space: 2147483647
   m_Property:
     name: Color
@@ -3630,3 +3631,101 @@ MonoBehaviour:
   m_Direction: 1
   m_LinkedSlots:
   - {fileID: 8926484042661614657}
+--- !u!114 &8926484042661614669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01ec2c1930009b04ea08905b47262415, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 8926484042661614585}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 0
+  m_UISuperCollapsed: 0
+  m_InputSlots:
+  - {fileID: 8926484042661614670}
+  m_OutputSlots: []
+  m_Disabled: 0
+  m_ActivationSlot: {fileID: 8926484042661614671}
+  attribute: size
+  Composition: 0
+  AlphaComposition: 0
+  SampleMode: 0
+  Mode: 1
+  ColorMode: 3
+  channels: 6
+--- !u!114 &8926484042661614670
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c117b74c5c58db542bffe25c78fe92db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661614670}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661614669}
+    m_Value:
+      m_Type:
+        m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+          Culture=neutral, PublicKeyToken=null
+      m_SerializableObject: '{"frames":[{"time":0.0,"value":0.0,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.19495785236358643,"value":0.6650857329368591,"inTangent":0.16705173254013062,"outTangent":0.16705173254013062,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":0.7329310774803162,"value":0.3963427245616913,"inTangent":-0.8947009444236755,"outTangent":-0.8947009444236755,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false},{"time":1.0,"value":0.13836669921875,"inTangent":0.0,"outTangent":0.0,"tangentMode":0,"leftTangentMode":0,"rightTangentMode":0,"broken":false}],"preWrapMode":8,"postWrapMode":8,"version":1}'
+    m_Space: 2147483647
+  m_Property:
+    name: Size
+    m_serializedType:
+      m_SerializableType: UnityEngine.AnimationCurve, UnityEngine.CoreModule, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+  m_Direction: 0
+  m_LinkedSlots: []
+--- !u!114 &8926484042661614671
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b4c11ff25089a324daf359f4b0629b33, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_UIIgnoredErrors: []
+  m_Parent: {fileID: 0}
+  m_Children: []
+  m_UIPosition: {x: 0, y: 0}
+  m_UICollapsed: 1
+  m_UISuperCollapsed: 0
+  m_MasterSlot: {fileID: 8926484042661614671}
+  m_MasterData:
+    m_Owner: {fileID: 8926484042661614669}
+    m_Value:
+      m_Type:
+        m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+          PublicKeyToken=b77a5c561934e089
+      m_SerializableObject: True
+    m_Space: 2147483647
+  m_Property:
+    name: _vfx_enabled
+    m_serializedType:
+      m_SerializableType: System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral,
+        PublicKeyToken=b77a5c561934e089
+  m_Direction: 0
+  m_LinkedSlots: []
