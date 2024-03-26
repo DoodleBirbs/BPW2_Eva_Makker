@@ -6,6 +6,7 @@ public class NightScript : MonoBehaviour
 {
     public GameObject TheSun;
     public Material Mat1;
+    public Animator WaterColor;
 
     void Start()
     {
@@ -18,7 +19,8 @@ public class NightScript : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-            Debug.Log("Night");
+        WaterColor.enabled = true; 
+        Debug.Log("Night");
             TheSun.transform.rotation = Quaternion.Euler(160, -4, 0);
             RenderSettings.skybox = Mat1;
     }
