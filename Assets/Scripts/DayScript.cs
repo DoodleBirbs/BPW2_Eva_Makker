@@ -11,6 +11,8 @@ public class DayScript : MonoBehaviour
     public GameObject Frog2Trigger;
     public Material Mat2;
     public Animator WaterColor;
+    public GameObject Party1;
+    public GameObject Party2;
     void Start()
     {
         WaterColor.enabled = false;
@@ -31,6 +33,8 @@ public class DayScript : MonoBehaviour
             Frog2.enabled = false;
             WaterColor.enabled = false;
             Frog2Trigger.SetActive(false);
+            Party1.SetActive(false);
+            Party2.SetActive(false);
 
             Debug.Log("Night");
             TheSun.transform.rotation = Quaternion.Euler(50, 30, 0);
