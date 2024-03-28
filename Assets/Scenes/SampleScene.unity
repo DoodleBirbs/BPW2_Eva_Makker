@@ -297,6 +297,7 @@ MonoBehaviour:
   TheSun: {fileID: 410087039}
   Frog1: {fileID: 555278214}
   Frog2: {fileID: 705007418}
+  Frog2Trigger: {fileID: 1058393563}
   Mat1: {fileID: 2100000, guid: a7d3f2410428257489331459e3c4159f, type: 2}
   WaterColor: {fileID: 1914064342}
 --- !u!1 &106607434
@@ -1696,9 +1697,7 @@ GameObject:
   - component: {fileID: 707200307}
   - component: {fileID: 707200306}
   - component: {fileID: 707200310}
-  - component: {fileID: 707200312}
   - component: {fileID: 707200313}
-  - component: {fileID: 707200314}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1803,21 +1802,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   tbc: {fileID: 28185632}
---- !u!114 &707200312
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707200305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 76c392e42b5098c458856cdf6ecaaaa1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_FirstSelected: {fileID: 0}
-  m_sendNavigationEvents: 1
-  m_DragThreshold: 10
 --- !u!114 &707200313
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1835,47 +1819,6 @@ MonoBehaviour:
   m_BlockingMask:
     serializedVersion: 2
     m_Bits: 4294967295
---- !u!114 &707200314
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 707200305}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01614664b831546d2ae94a42149d80ac, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_SendPointerHoverToParent: 1
-  m_MoveRepeatDelay: 0.5
-  m_MoveRepeatRate: 0.1
-  m_XRTrackingOrigin: {fileID: 0}
-  m_ActionsAsset: {fileID: -944628639613478452, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_PointAction: {fileID: 1054132383583890850, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MoveAction: {fileID: 3710738434707379630, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_SubmitAction: {fileID: 2064916234097673511, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_CancelAction: {fileID: -1967631576421560919, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_LeftClickAction: {fileID: 8056856818456041789, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_MiddleClickAction: {fileID: 3279352641294131588, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_RightClickAction: {fileID: 3837173908680883260, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_ScrollWheelAction: {fileID: 4502412055082496612, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDevicePositionAction: {fileID: 4754684134866288074, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_TrackedDeviceOrientationAction: {fileID: 1025543830046995696, guid: ca9f5fa95ffab41fb9a615ab714db018,
-    type: 3}
-  m_DeselectOnBackgroundClick: 1
-  m_PointerBehavior: 0
-  m_CursorLockBehavior: 0
 --- !u!1 &811402299
 GameObject:
   m_ObjectHideFlags: 0
@@ -7194,7 +7137,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1058393564
 Transform:
   m_ObjectHideFlags: 0
@@ -18643,7 +18586,7 @@ GameObject:
   - component: {fileID: 1846044198}
   - component: {fileID: 1846044197}
   m_Layer: 0
-  m_Name: Audio Source
+  m_Name: Fire AudioSource
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -18887,6 +18830,7 @@ MonoBehaviour:
   TheSun: {fileID: 410087039}
   Frog1: {fileID: 555278214}
   Frog2: {fileID: 705007418}
+  Frog2Trigger: {fileID: 1058393563}
   Mat2: {fileID: 2100000, guid: 97803f818844cc34392a7e6153daee72, type: 2}
   WaterColor: {fileID: 1914064342}
 --- !u!4 &1909724428 stripped

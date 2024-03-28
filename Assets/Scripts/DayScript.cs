@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.Mathematics;
 using UnityEngine;
 
 public class DayScript : MonoBehaviour
@@ -7,6 +8,7 @@ public class DayScript : MonoBehaviour
     public GameObject TheSun;
     public MeshRenderer Frog1;
     public MeshRenderer Frog2;
+    public GameObject Frog2Trigger;
     public Material Mat2;
     public Animator WaterColor;
     void Start()
@@ -28,6 +30,8 @@ public class DayScript : MonoBehaviour
             Frog1.enabled = true;
             Frog2.enabled = false;
             WaterColor.enabled = false;
+            Frog2Trigger.SetActive(false);
+
             Debug.Log("Night");
             TheSun.transform.rotation = Quaternion.Euler(50, 30, 0);
             RenderSettings.skybox = Mat2;

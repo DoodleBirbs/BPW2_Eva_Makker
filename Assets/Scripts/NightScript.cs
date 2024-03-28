@@ -8,6 +8,7 @@ public class NightScript : MonoBehaviour
     public GameObject TheSun;
     public MeshRenderer Frog1;
     public MeshRenderer Frog2;
+    public GameObject Frog2Trigger;
     public Material Mat1;
     public Animator WaterColor;
 
@@ -24,7 +25,9 @@ public class NightScript : MonoBehaviour
     {
         Frog1.enabled = false;
         Frog2.enabled = true;
-        WaterColor.enabled = true; 
+        WaterColor.enabled = true;
+        Frog2Trigger.SetActive(true);
+
         Debug.Log("Night");
             TheSun.transform.rotation = Quaternion.Euler(160, -4, 0);
             RenderSettings.skybox = Mat1;
